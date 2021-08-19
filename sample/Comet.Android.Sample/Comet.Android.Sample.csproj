@@ -139,11 +139,11 @@
       <Project>{1057EEAD-899D-4BC2-BA73-6BC526AD3F19}</Project>
       <Name>Comet.Samples</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\external\Maui\src\Core\src\Core.csproj">
+    <ProjectReference Include="..\..\External\Maui\src\Core\src\Core.csproj">
       <Name>Core</Name>
       <Project>{8A53D192-072F-4EF2-8547-932D7538FFB9}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\external\Maui\src\Essentials\src\Essentials.csproj">
+    <ProjectReference Include="..\..\External\Maui\src\Essentials\src\Essentials.csproj">
       <Name>Essentials</Name>
       <Project>{E2F234D6-3B2C-4F5E-B815-6D61B8AA5DC6}</Project>
     </ProjectReference>

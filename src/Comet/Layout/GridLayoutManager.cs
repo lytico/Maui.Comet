@@ -133,11 +133,11 @@ namespace Comet.Layout
 			return new Size(_width, _height);
 		}
 
-		public Size ArrangeChildren(Rectangle bounds)
+		public Size ArrangeChildren(Size boundsSize)
 		{
 			var layout = grid;
-			var measured = bounds.Size;
-			var size = bounds.Size;
+			var measured = boundsSize;
+			var size = boundsSize;
 			if (_gridX == null || !_lastSize.Equals(size))
 			{
 				ComputeGrid(size.Width, size.Height);

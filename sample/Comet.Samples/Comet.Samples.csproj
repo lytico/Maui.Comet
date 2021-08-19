@@ -13,7 +13,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\Comet\Comet.csproj" />
-    <ProjectReference Include="..\..\external\Maui\src\Core\src\Core.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

@@ -48,7 +48,7 @@ namespace Comet
 				padding.Right,
 				frame.Width - padding.HorizontalThickness,
 				frame.Height - padding.VerticalThickness);
-			LayoutManager?.ArrangeChildren(bounds);
+			LayoutManager?.ArrangeChildren(bounds.Size);
 		}
 
 		public override Size GetDesiredSize(Size availableSize)

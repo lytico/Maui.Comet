@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Linq;
-using Comet.Graphics;
-using Comet.Samples.Models;
-using Microsoft.Maui;
-using Microsoft.Maui.Graphics;
 using Microsoft.Maui.Hosting;
 
 namespace Comet.Samples
